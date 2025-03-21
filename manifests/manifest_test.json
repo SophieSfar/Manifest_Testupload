@@ -1,0 +1,265 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://SophieSfar.github.io/Manifest_Testupload/manifests/manifest_test.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/r0isgn2t14d-m88lks6d",
+    "type" : "Canvas",
+    "height" : 3040,
+    "width" : 3996,
+    "label" : {
+      "en" : [ "" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/r0isgn2t14d-m88lks6d/annotation-page/gns6taxyl6n-m88lks6d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/r0isgn2t14d-m88lks6d/annotation-page/gns6taxyl6n-m88lks6d/annotation/wrwrn8k2c2r-m88lnpr6",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/r0isgn2t14d-m88lks6d",
+        "body" : {
+          "id" : "https://www.e-manuscripta.ch/i3f/v20/4602949/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3040,
+          "width" : 3996,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v20/4602949",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3996,
+            "height" : 3040,
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 97
+            }, {
+              "width" : 304,
+              "height" : 231
+            }, {
+              "width" : 504,
+              "height" : 383
+            }, {
+              "width" : 800,
+              "height" : 609
+            }, {
+              "width" : 1000,
+              "height" : 761
+            }, {
+              "width" : 1200,
+              "height" : 913
+            }, {
+              "width" : 1504,
+              "height" : 1144
+            }, {
+              "width" : 2000,
+              "height" : 1522
+            }, {
+              "width" : 3996,
+              "height" : 3040
+            } ],
+            "id" : "https://www.e-manuscripta.ch/i3f/v20/4602949"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/xltasbso4o-m88lxj2b",
+    "type" : "Canvas",
+    "height" : 5686,
+    "width" : 4991,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/xltasbso4o-m88lxj2b/annotation-page/o5byazp2rn9-m88lxj2c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/9d8czwq1qki-m88ljb08/annotation/bpr7wn2rf5r-m88lxj2b",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/xltasbso4o-m88lxj2b",
+        "body" : {
+          "id" : "https://www.e-rara.ch/i3f/v21/12530938/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 5686,
+          "width" : 4991,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-rara.ch/i3f/v21/12530938",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 4991,
+            "height" : 5686,
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 146
+            }, {
+              "width" : 304,
+              "height" : 346
+            }, {
+              "width" : 504,
+              "height" : 574
+            }, {
+              "width" : 800,
+              "height" : 911
+            }, {
+              "width" : 1000,
+              "height" : 1139
+            }, {
+              "width" : 1200,
+              "height" : 1367
+            }, {
+              "width" : 1504,
+              "height" : 1713
+            }, {
+              "width" : 2000,
+              "height" : 2279
+            }, {
+              "width" : 4000,
+              "height" : 4557
+            }, {
+              "width" : 4991,
+              "height" : 5686
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "scaleFactors" : [ 1, 1.24775, 2.4955, 3.3184840425531914, 4.159166666666667, 4.991, 6.23875, 9.902777777777779, 16.417763157894736, 38.9921875 ],
+              "height" : 512
+            } ],
+            "id" : "https://www.e-rara.ch/i3f/v21/12530938"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/i3kkp3cpix-m88mlohu",
+    "type" : "Canvas",
+    "height" : 2919,
+    "width" : 3643,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/i3kkp3cpix-m88mlohu/annotation-page/r2xvzwmtruh-m88mlohu",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/9d8czwq1qki-m88ljb08/annotation/nr7chu93i69-m88mlohu",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/i3kkp3cpix-m88mlohu",
+        "body" : {
+          "id" : "https://www.e-manuscripta.ch/i3f/v21/4636547/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2919,
+          "width" : 3643,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v21/4636547",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "supports" : [ "baseUriRedirect", "cors", "jsonldMediaType", "mirroring", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh" ],
+              "qualities" : [ "default", "color", "gray", "bitonal" ],
+              "formats" : [ "jpg" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3643,
+            "height" : 2919,
+            "sizes" : [ {
+              "width" : 128,
+              "height" : 103
+            }, {
+              "width" : 304,
+              "height" : 244
+            }, {
+              "width" : 504,
+              "height" : 404
+            }, {
+              "width" : 800,
+              "height" : 641
+            }, {
+              "width" : 1000,
+              "height" : 801
+            }, {
+              "width" : 1200,
+              "height" : 962
+            }, {
+              "width" : 1504,
+              "height" : 1205
+            }, {
+              "width" : 2000,
+              "height" : 1603
+            }, {
+              "width" : 3643,
+              "height" : 2919
+            } ],
+            "id" : "https://www.e-manuscripta.ch/i3f/v21/4636547"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/t1ifphkccs-m88mrrvl",
+    "type" : "Canvas",
+    "height" : 1344,
+    "width" : 2274,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/t1ifphkccs-m88mrrvl/annotation-page/l3682y9u2jj-m88mrrvl",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/9d8czwq1qki-m88ljb08/annotation/7y18i4s0hqy-m88mrr6z",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/t1ifphkccs-m88mrrvl",
+        "body" : {
+          "id" : "https://www.e-rara.ch/i3f/v21/12530938/2186,3473,2274,1344/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1344,
+          "width" : 2274
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/1aul6qs9kcz-m88msj41",
+    "type" : "Canvas",
+    "height" : 1000,
+    "width" : 1000,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/1aul6qs9kcz-m88msj41/annotation-page/znhogu946ye-m88msj41",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/9d8czwq1qki-m88ljb08/annotation/zc0njzsqdqo-m88msik7",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/9d8czwq1qki-m88ljb08/canvas/1aul6qs9kcz-m88msj41",
+        "body" : {
+          "id" : "https://www.e-rara.ch/i3f/v21/12530938/0,0,0,0/full/270/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1000,
+          "width" : 1000
+        }
+      } ]
+    } ]
+  } ]
+}

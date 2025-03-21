@@ -1,0 +1,15 @@
+{
+  "id" : "https://SophieSfar.github.io/Manifest_Testupload/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SophieSfar/Manifest_Testupload project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://SophieSfar.github.io/Manifest_Testupload/manifests/manifest_test.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
